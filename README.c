@@ -21,6 +21,8 @@ void larger_array()
     
         }
     }
+
+    printf("larger values is = ");   
    
     printf("%d",larger_value );
     return 0;
