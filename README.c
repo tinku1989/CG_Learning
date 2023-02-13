@@ -21,7 +21,7 @@ void larger_array()
     
         }
     }
-    printf("larger values is = ");
+    printf("larger values is = ");   //printing the larger value in the array
     printf("%d",larger_value );
     return 0;
 }
