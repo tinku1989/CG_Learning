@@ -1,7 +1,7 @@
-//# CG_Learning
-//Training purpose
-#include <stdio.h>
+/*# CG_Learning*/
+/*Training purpose*/
 
+#include <stdio.h>
 int main() 
 {
     large_element();
