@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main() 
+{
+    large_element();
+    small_element();
+}
+void large_element()
+{
+    // Write C code here
+    int i,large_value;
+    int arr[]={1,4,2,9,10,8};
+    int *ptr=&arr;
+    for(i=0;i<6;i++)
+    {
+        if((ptr[4]) <= (ptr[i])) 
+        {
+            large_value = ptr[i];
+    
+        }
+    }
+    printf("large values of index is = ");
+    printf("%d",large_value );
+    return 0;
+}
+void small_element()
+{
+     // Write C code here
+    int i,small_value;
+    int arr[]={1,-10,2,9,4,-5};
+    int *ptr=&arr;
+    for(i=0;i<6;i++)
+    {
+        if((ptr[i]) <= (ptr[1])) 
+        {
+            small_value = ptr[i];
+    
+        }
+    }
+    printf(" small values of index is = ");
+    printf("%d",small_value );
+    return 0;   
+}
